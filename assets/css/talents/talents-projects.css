@@ -2,6 +2,20 @@
 	position: relative;
 	padding: 40px 60px;
 }
+#projects-block .close-icon{
+    position: absolute;
+    background-color: #808080;
+    display: block;
+    color: #fff;
+    top: 15px;
+    right: 40px;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 100%;
+}
 
 #projects-block .add-project{
 	padding: 5px 30px;
@@ -19,8 +33,8 @@
 	padding: 0 15px;
 }
 
-.projects-block-add{
-	display: none;
+.add-project-form{
+    display: none;
 }
 
 .add-project-form form input:not([type="file"]), .add-project-form form textarea, .add-project-form form select{
