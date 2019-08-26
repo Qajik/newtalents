@@ -25,7 +25,11 @@
                 </button>
                 <a class="brandOptionLogoClass navbar-brand" href="/">
                 <img src="../assets/img/main-top-logo.png" alt="My Application"></a>
-            </div>  
+            </div>
+            <div class="navbar-nav navbar-right nav nav-bar-config">
+                <img src="../assets/img/Settings_icon@3x.png">
+                <span title="help">Help</span>
+            </div>
         </div>
     </nav>
     <div class="container">

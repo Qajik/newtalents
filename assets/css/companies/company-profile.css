@@ -1,8 +1,3 @@
-
-html, body {
-    height: 100%;
-}
-
 .np {
     padding: 0;
     margin: 0;
@@ -60,15 +55,6 @@ html, body {
     height: 70px;
 }
 
-.leftSidbar {
-    height: 239px;
-    background-color: #f2f2f2;
-    border: solid 1px #d7d8d9;
-    box-shadow: 3px 5px 10px 4px #d7d8d9;
-    position: fixed;
-    width: 184px;
-}
-
 .profileHeadBlock {
     height: 450px;
     /* border:solid 1px #d7d8d9; */
@@ -105,12 +91,6 @@ html, body {
 
 .profilInfoName {
     margin-top: 30px;
-}
-
-.leftBarProfileNavi a {
-    font-size: 20px;
-    color: rgba(131, 128, 128, 255);
-    margin-left: 15px;
 }
 
 .profileTimelineBackground {
@@ -161,20 +141,6 @@ html, body {
     margin-top: 20px;
     margin-left: 25px;
     font-weight: 500;
-}
-
-.settingsToolButtonProfileRight {
-    margin-top: 188px;
-    /* padding-bottom: 24px; */
-    width: 47px;
-    height: 47px;
-    background: none;
-    color: #000;
-    border-color: #dcdcdc;
-}
-
-.settingsToolButtonProfileRight:hover {
-    background-color: #257090;
 }
 
 .tabMenuBlock > ul {
