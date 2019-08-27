@@ -2,6 +2,7 @@ var talents = {
     init: function () {
         this.selectResumeOnClick();
         this.toggleNewProjectForm();
+        this.toggleAdvenacedSearchForm();
     },
 
     selectResumeOnClick: function(){
@@ -20,7 +21,7 @@ var talents = {
     toggleNewProjectForm: function(){
         var projects = $('#projects-block');
         if(projects && projects.length){
-            projects.on('click', '.add-project, .close-icon', function(e){
+            projects.on('click', '.add-project, .close-icon', function(){
                 var projectForm = $(this).parent();
                 projectForm.fadeOut('300', function(){
                    projectForm.siblings().fadeIn('slow');
@@ -28,6 +29,15 @@ var talents = {
             });
         }
     },
+
+    toggleAdvenacedSearchForm: function(){
+        var searchForms = $('#pills-talents-requests .details-n-request.tr form.t-search');
+        if(searchForms && searchForms.length){
+            searchForms.on('click', '.advanced-s', function(){
+                searchForms.filter( ".t-advanced-search" ).slideToggle(600);
+            });
+        }
+    }
     
 }
 

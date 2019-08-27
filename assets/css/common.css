@@ -3,7 +3,6 @@ body {
     height: 100%;
     background-color:#f0f0f0;
 }
-
 .wrap {
     min-height: 100%;
     height: auto;
@@ -68,7 +67,6 @@ body {
 }
 
 .profile-top-right-options {
-    /* display: inline; */
     float: left;
     height: 70px;
 }
@@ -84,12 +82,15 @@ body {
 
 .profileHeadBlock {
     height: 450px;
-    /* border:solid 1px #d7d8d9; */
     background-color: #f2f2f2;
     border: solid 1px #d7d8d9;
     box-shadow: 3px 5px 10px 4px #d7d8d9;
 }
-
+.tabMenuBlock{
+    border-right: solid 2px #d6d6d6;
+    box-shadow: 3px 5px 10px 4px #d7d8d9;
+    padding-bottom: 4rem;
+}
 .sectionMainBar {
     padding-top: 10px;
 }
@@ -111,7 +112,6 @@ body {
 }
 
 .profilInfoImage img {
-    /* width: 67px;*/
     height: 65px;
 }
 
@@ -196,6 +196,55 @@ body {
     width: 47px;
     height: 47px;
     color: #000;
+}
+
+.details-n-request{
+    position: relative;
+    width: calc(100% - 40px);
+    margin: 20px auto 20px auto;
+    background: #fff;
+    border-top: solid 6px #257090;
+    border-bottom: solid 2px #cfcfcf;
+    border-left: solid 2px #cfcfcf;
+    border-right: solid 2px #cfcfcf;
+    box-shadow: 3px 5px 10px 4px #d7d8d9;
+}
+.details-n-request form{
+    width: calc(100% - 40px);
+    margin: 0 auto;
+    padding: 20px 0 80px 0;
+}
+.details-n-request form textarea{
+    margin-bottom: 15px;
+}
+.details-n-request form >div:not(.info-update-section) .form-group > *:not(label){
+    background-color: #f0f0f0;
+}
+.details-n-request form .info-update-section input{
+    width: 100px;
+    border: none;
+}
+.details-n-request form .info-update-section input[type="submit"]{
+    color: #fff;
+    background-color: #257090;
+}
+.details-n-request form .info-update-section input[type="recet"]{
+    color: #257090;
+    background-color: transparent;
+}
+
+.info-update-section{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    text-align: right;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    padding: 5px 10px 5px 0;
+    background-color: #ADCAD6;
 }
 
 .tabMenuBlock > ul {

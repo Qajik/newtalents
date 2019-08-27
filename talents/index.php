@@ -103,6 +103,7 @@
                                         require_once "tab-menu.php";    
                                     }
                                 ?>
+                                <!-- Includin profile details -->
                                 <?php 
                                     if(file_exists("profile-details.php")){
                                         require_once "profile-details.php";    
