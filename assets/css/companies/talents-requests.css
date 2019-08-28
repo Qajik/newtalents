@@ -8,6 +8,10 @@
     border-right: solid 2px #cfcfcf;
     box-shadow: 3px 5px 10px 4px #d7d8d9;
 }
+
+.details-n-request.tr{
+	background-color: #F9F9F9;
+}
 .details-n-request.tr form{
 	padding-bottom: 50px !important;
 }
@@ -22,6 +26,7 @@
 	padding-top: 4px;
 	padding-bottom: 4px;
 }
+
 .details-n-request .t-simple-search{
 	background-color: #ccc;
 	width: 100%;
@@ -49,11 +54,51 @@
 	color: #C3C3C3;
 	font-weight: normal;
 }
+.details-n-request.status-block{
+	padding-bottom: 0;
+}
+
+.details-n-request.status-block .dr-inner{
+	border: none;
+	box-shadow: none;
+}
+.details-n-request.status-block .dr-inner button{
+	width: 150px;
+	color: #fff;
+}
+.details-n-request.status-block .dr-inner button.r-pending{
+	margin-bottom: 10px;
+	margin-top: 15px;
+	background-color: #5BA0B6;
+}
+.details-n-request.status-block .dr-inner button.r-cancel{
+	background-color: #B70000;
+}
+.details-n-request.status-block h3{
+	border-bottom: 2px solid #565557;
+	padding-bottom: 1rem;
+    padding-left: 0 !important;
+    margin-bottom: 4rem;
+    margin-top: .5rem;
+}
+
+.details-n-request .border-dashed{
+	border: 2px dashed #E2E2E2;
+	margin: 30px 0;
+}
 @media(min-width:767px){
 	.details-n-request .t-simple-search{
 		padding-left: 45px;
 	}
 	.details-n-request .t-simple-search > div{
 		padding-right: 0;
+	}
+	.details-n-request.status-block .dr-inner .t-info{
+		position: absolute;
+		right: 0;
+		bottom: 0;
+	}
+	.details-n-request.status-block .dr-inner .t-info .talent-position{
+		margin-bottom: 0;
 	}
 }

@@ -44,15 +44,15 @@
 	                    <label>Gender</label>
 	                    <div class="form-control radio-selects">
 	                    	<label class="text-muted">
-			                    <input type="radio" name="talentsRequest[g_male]">
+			                    <input type="radio" name="talentsRequest[gender]">
 			                    <span>male</span>
 			                </label>
 		                    <label class="text-muted">
-			                    <input type="radio" name="talentsRequest[g_female]">
+			                    <input type="radio" name="talentsRequest[gender]">
 			                    <span>female</span>
 			                </label>
 			                <label class="text-muted">
-			                    <input type="radio" name="talentsRequest[g_both]">
+			                    <input type="radio" name="talentsRequest[gender]">
 			                     <span>both</span>
 			                </label>
 		                </div>
@@ -126,15 +126,15 @@
 	                    <label>Job type</label>
 	                    <div class="form-control radio-selects">
 	                    	<label class="text-muted">
-			                    <input type="radio" name="talentsRequest[full_time]">
+			                    <input type="radio" name="talentsRequest[job_type]">
 			                    <span>full time</span>
 			                </label>
 		                    <label class="text-muted">
-			                    <input type="radio" name="talentsRequest[part_time]">
+			                    <input type="radio" name="talentsRequest[job_type]">
 			                    <span>part time</span>
 			                </label>
 			                <label class="text-muted">
-			                    <input type="radio" name="talentsRequest[freelance]">
+			                    <input type="radio" name="talentsRequest[job_type]">
 			                     <span>freelance</span>
 			                </label>
 		                </div>
@@ -163,4 +163,60 @@
 	        </form>
 	    </div>
     </div>
+
+    <div class="details-n-request tr dragableArea row status-block">
+    	<div class="dr-inner row">
+	    	<h3 class="mb-5 col-md-12">Talents requests status</h3>
+	    	<div class="col-md-12">
+		    	<div class="col-md-4">
+		    		<img src="../assets/img/defaultManPictureBig.png" alt="Talent image" class="col-md-6">
+		    		<div class="col-md-6 t-info">
+			    		<h4 class="talent-name">Davit Yan</h4>
+			    		<p class="talent-position">Position Title</p>
+			    	</div>
+		    	</div>
+		    	<div class="col-md-4"></div>
+
+		    	<div class="col-md-4">
+		    		<div class="text-right"><button class="btn r-pending">Request pending</button></div>
+		    		<div class="text-right"><button class="btn r-cancel">Cancel request</button></div>
+		    	</div>
+		    	<div class="col-md-12 border-dashed"></div>
+		    </div>
+
+		    <div class="col-md-12">
+		    	<div class="col-md-4">
+		    		<img src="../assets/img/defaultManPictureBig.png" alt="Talent image" class="col-md-6">
+		    		<div class="col-md-6 t-info">
+			    		<h4 class="talent-name">Babken Yan</h4>
+			    		<p class="talent-position">Position Title</p>
+			    	</div>
+		    	</div>
+		    	<div class="col-md-4"></div>
+
+		    	<div class="col-md-4">
+		    		<div class="text-right"><button class="btn r-pending">Request pending</button></div>
+		    		<div class="text-right"><button class="btn r-cancel">Cancel request</button></div>
+		    	</div>
+		    	<div class="col-md-12 border-dashed"></div>
+		    </div>
+	    	
+	    </div>
+    </div>
+    <div class="details-n-request tr dragableArea row status-block">
+    	<div class="dr-inner row">
+	    	<h3 class="mb-5 col-md-12">Latest Talents added</h3>
+	    	<div class="col-md-12">
+		    	<div class="col-md-4">
+		    		<img src="../assets/img/defaultManPictureBig.png" alt="Talent image" class="col-md-6">
+		    		<div class="col-md-6 t-info">
+			    		<h4 class="talent-name">Gevorg Yan</h4>
+			    		<p class="talent-position">Position Title</p>
+			    	</div>
+		    	</div>
+		    	<div class="col-md-12 border-dashed"></div>
+		    </div>
+	    </div>
+    </div>
+
 </div>
