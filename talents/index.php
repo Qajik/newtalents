@@ -9,6 +9,7 @@
     <link href="../assets/css/talents/talents-profile.css" rel="stylesheet">
     <link href="../assets/css/talents/talents-projects.css" rel="stylesheet">
     <link href="../assets/css/talents/talents-cv.css" rel="stylesheet">
+    <link href="../assets/css/talents/talents-activity.css" rel="stylesheet">
 </head>
 <body>
 <div class="wrap">

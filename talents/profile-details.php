@@ -1,10 +1,8 @@
 <div class="tab-content profileOptionLists" id="pills-tabContent">
-
-                            <div class="tab-pane fade active in" id="pills-profileDetails" role="tabpanel" aria-labelledby="pills-profileDetails-tab">
-
-                                <div id="profile-details" class="row dragableArea">
-                                    <div class="col-md-6">
-                                        <div class="profile-details-left row">
+<div class="tab-pane fade active in" id="pills-profileDetails" role="tabpanel" aria-labelledby="pills-profileDetails-tab">
+    <div id="profile-details" class="row dragableArea">
+        <div class="col-md-6">
+            <div class="profile-details-left row">
 <div class="col-md-12 dataTagGlobal" data_action="resume-skills">
 <!--Info block begin-->  
     <div class="borderTop6px_257090 profileOptions infoBlockFloat profileCVSkilles leftSide">
