@@ -16,7 +16,7 @@
 
 <!-- starting home top navigation -->
 <div id="sticky-wrapper" class="sticky-wrapper" style="height: 138px;">
-  <header class="site-navbar py-4 js-sticky-header site-navbar-target" role="banner">
+  <header class="site-navbar py-1 js-sticky-header site-navbar-target" role="banner">
     <div class="container-fluid">
       <div class="d-flex align-items-center">
         <div class="site-logo mr-auto w-25">
@@ -63,17 +63,19 @@
     </div>
 
     <div class="intro-section" id="home-section">
-      <div class="slide-1" style="background-image: url('assets/img/home/hero_1.jpg'); background-position: 50% -25px;" data-stellar-background-ratio="0.5">
+      <div class="hero1">
         <div class="container">
           <div class="row align-items-center">
             <div class="col-12">
               <div class="row align-items-center">
-                <div class="col-lg-6 mb-4 l-talent">
-                  <h1 data-aos="fade-up" data-aos-delay="100" class="aos-init">LOGO</h1>
+                <div class="col-lg-5 mb-4 l-talent">
+                  <h1 data-aos="fade-up" data-aos-delay="100" class="aos-init">
+                    <img src="assets/img/main-top-logo.png" alt="talents logo">
+                  </h1>
                   <div class="mb-5 aos-init" data-aos="fade-up" data-aos-delay="200">
                     <p>Bring out your Talents</p><p>Discover a new Universe</p>
                   </div>
-                  <div class="short-hr mb-5 aos-init" data-aos="fade-up" data-aos-delay="200"></div>
+
                   <p data-aos="fade-up" data-aos-delay="300" class="intro-section-low-desc aos-init">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro eius suscipit delectus enim iusto tempora, adipisci at provident.</p>
                   <p data-aos="fade-up" data-aos-delay="300" class="aos-init">
                     <a href="#" class="btn btn-primary py-3 px-5 btn-pill more-btn">More</a>
@@ -119,121 +121,133 @@
         </div>
       </div>
     </div>
-    <div class="news-section aos-init" data-aos="fade-up" data-aos-delay="100"> 
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-5 col-md-6 pt-4 pb-4 news-section-left">
-            <h3 clsas="news-section-title">News</h3>
-            <p clsas="news-section-info">
-              All the updates bla bla bla bla bla bla...
-            </p>
-          </div>
 
-          <div class="col-lg-7 col-md-6 pt-4 pb-4 news-section-right">
-            <img src="/" alt="LOGO" class="">
-            <p>Lorem ipsum dolor sit amet ipsa nulla adipisicing elit</p>
+    <div class="site-section" id="steps-section">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-12 text-center aos-init" data-aos="fade-up" data-aos-delay="100">
+            <h2 class="section-title text-center">You have a Talent. Follow the steps</h2>
+          </div>
+        </div>
+        <div class="row mt-5 px-5">
+          <div class="container">
+            <div class="row">
+              <div class="px-5 steps-section-wrapper">
+                <div class="col-md-3 col-lg-3 mb-5 pt-4 align-self-stretch">
+                  <div class="px-5">
+                    <div class="course-inner-text py-2 px-4">
+                      <h3>Step 1</h3>
+                    </div>
+                    <figure class="m-0">
+                      <img src="assets/img/home/register-4x.png" alt="register" class="img-fluid">
+
+                    </figure>
+                    <p class="text-center py-2">Register</p>
+                  </div>
+                </div>
+                
+                <div class="col-md-3 col-lg-3 mb-5 pt-4 align-self-stretch">
+                  <div class="px-5 steps-section-content">
+                    <h3>Step 2</h3>
+                    <figure class="m-0">
+                      <img src="assets/img/home/create-cv-4x.png" alt="create cv" class="img-fluid">
+                    </figure>
+                    <p class="text-center py-2">Create your CV</p>
+                  </div>
+                </div>
+
+                <div class="col-md-3 col-lg-3 mb-5 pt-4 align-self-stretch">
+                  <div class="px-5 steps-section-content">
+                    <h3>Step 3</h3>
+                    <figure class="m-0">
+                      <img src="assets/img/home/com-4x.png" alt="communicate" class="img-fluid">
+                    </figure>
+                    <p class="text-center py-2">Communicate</p>
+                  </div>
+                </div>
+
+                <div class="col-md-3 col-lg-3 mb-5 pt-4 align-self-stretch">
+                  <div class="px-5 steps-section-content">
+                    <h3>Step 4</h3>
+                    <figure class="m-0">
+                      <img src="assets/img/home/talents-4x.png" alt="show talents" class="img-fluid">
+                    </figure>
+                    <p class="text-center py-2">Show your Talents</p>
+                  </div>
+                </div>
+              </div>
+
+                <div class="s003 mx-auto text-center">
+                  <form class="col-md-12 col-lg-12">
+                    <div class="inner-form">
+                      <div class="input-field third-wrap">
+                        <button class="btn-search" type="submit">
+                          Seeking
+                        </button>
+                      </div>
+                      
+                      <div class="input-field second-wrap">
+                        <input id="search" type="text" placeholder="Search" />
+                      </div>
+                      
+                      <div class="input-field first-wrap">
+                        <div class="input-select">
+                          <select data-trigger="" name="choices-single-defaul">
+                            <option placeholder="">Category</option>
+                            <option>IT specialist</option>
+                            <option>Sale</option>
+                            <option>Management</option>
+                            <option>Other</option>
+                          </select>
+                        </div>
+                      </div>
+
+
+                    </div>
+                  </form>
+                </div>
+
+              
+            </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="site-section services-title" id="services-section">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-lg-12 text-center aos-init" data-aos="fade-up" data-aos-delay="100">
-            <h2 class="section-title">Services</h2>
-          </div>
-        </div>
 
-        <div class="row mt-5">
-            <div class="col-md-6 col-lg-6 mb-5 pt-4 course align-self-stretch">
-              <figure class="m-0">
-                <a href="#"><img src="assets/img/home/img_1.jpg" alt="Image" class="img-fluid"></a>
-              </figure>
-              <div class="course-inner-text py-4 px-4">
-                <span class="course-price">$20</span>
-                <div class="meta"><span class="icon-clock-o"></span>4 Lessons / 12 week</div>
-                <h3><a href="#">Study Law of Physics</a></h3>
-                <p>Lorem ipsum dolor sit amet ipsa nulla adipisicing elit. </p>
+
+
+
+
+
+    
+    <div class="site-section aos-init" id="services-section"  data-aos="fade-up" data-aos-delay="100">
+      <div class="justify-content-center text-center">
+        <h2 class="section-title services-title">Services</h2>
+      </div>
+      <div class="container services-section-wrapper">
+        <div class="row">
+            <div class="col-md-3 col-lg-3 text-center align-self-stretch">
+              <div class="mb-5 py-5 px-3 course">
+                Service 1
               </div>
-              <div class="d-flex border-top stats">
-                <div class="py-3 px-4"><span class="icon-users"></span>Service 1</div>
+              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh eu</p>
+            </div>
+            <div class="col-md-3 mx-auto col-lg-3 text-center align-self-stretch">
+              <div class="mb-5 py-5 px-3 course">
+                Service 2
               </div>
+              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh eu</p>
+            </div>
+            
+            <div class="col-md-3 col-lg-3 text-center align-self-stretch">
+              <div class="mb-5 py-5 px-3 course">
+                Service 3
+              </div>
+              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh eu</p>
             </div>
 
-            <div class="col-md-6 col-lg-6 mb-5 pt-4 course align-self-stretch">
-              <figure class="m-0">
-                <a href="#"><img src="assets/img/home/img_2.jpg" alt="Image" class="img-fluid"></a>
-              </figure>
-              <div class="course-inner-text py-4 px-4">
-                <span class="course-price">$99</span>
-                <div class="meta"><span class="icon-clock-o"></span>4 Lessons / 12 week</div>
-                <h3><a href="#">Logo Design Course</a></h3>
-                <p>Lorem ipsum dolor sit amet ipsa nulla adipisicing elit. </p>
-              </div>
-              <div class="d-flex border-top stats">
-                <div class="py-3 px-4"><span class="icon-users"></span>Service 2</div>
-              </div>
-            </div>
+           
 
-            <div class="col-md-6 col-lg-6 mb-5 pt-4 course align-self-stretch">
-              <figure class="m-0">
-                <a href="#"><img src="assets/img/home/img_3.jpg" alt="Image" class="img-fluid"></a>
-              </figure>
-              <div class="course-inner-text py-4 px-4">
-                <span class="course-price">$99</span>
-                <div class="meta"><span class="icon-clock-o"></span>4 Lessons / 12 week</div>
-                <h3><a href="#">JS Programming Language</a></h3>
-                <p>Lorem ipsum dolor sit amet ipsa nulla adipisicing elit. </p>
-              </div>
-              <div class="d-flex border-top stats">
-                <div class="py-3 px-4"><span class="icon-users"></span>Service 3</div>
-              </div>
-            </div>
-
-            <div class="col-md-6 col-lg-6 mb-5 pt-4 course align-self-stretch">
-              <figure class="m-0">
-                <a href="#"><img src="assets/img/home/img_4.jpg" alt="Image" class="img-fluid"></a>
-              </figure>
-              <div class="course-inner-text py-4 px-4">
-                <span class="course-price">$20</span>
-                <div class="meta"><span class="icon-clock-o"></span>4 Lessons / 12 week</div>
-                <h3><a href="#">Study Law of Physics</a></h3>
-                <p>Lorem ipsum dolor sit amet ipsa nulla adipisicing elit. </p>
-              </div>
-              <div class="d-flex border-top stats">
-                <div class="py-3 px-4"><span class="icon-users"></span>Service 4</div>
-              </div>
-            </div>
-
-            <div class="col-md-6 col-lg-6 mb-5 pt-4 course align-self-stretch">
-              <figure class="m-0">
-                <a href="#"><img src="assets/img/home/img_5.jpg" alt="Image" class="img-fluid"></a>
-              </figure>
-              <div class="course-inner-text py-4 px-4">
-                <span class="course-price">$99</span>
-                <div class="meta"><span class="icon-clock-o"></span>4 Lessons / 12 week</div>
-                <h3><a href="#">Logo Design Course</a></h3>
-                <p>Lorem ipsum dolor sit amet ipsa nulla adipisicing elit. </p>
-              </div>
-              <div class="d-flex border-top stats">
-                <div class="py-3 px-4"><span class="icon-users"></span>Service 5</div>
-              </div>
-            </div>
-
-            <div class="col-md-6 col-lg-6 mb-5 pt-4 course align-self-stretch">
-              <figure class="m-0">
-                <a href="#"><img src="assets/img/home/img_6.jpg" alt="Image" class="img-fluid"></a>
-              </figure>
-              <div class="course-inner-text py-4 px-4">
-                <span class="course-price">$99</span>
-                <div class="meta"><span class="icon-clock-o"></span>4 Lessons / 12 week</div>
-                <h3><a href="#">JS Programming Language</a></h3>
-                <p>Lorem ipsum dolor sit amet ipsa nulla adipisicing elit. </p>
-              </div>
-              <div class="d-flex border-top stats">
-                <div class="py-3 px-4"><span class="icon-users"></span>Service 6</div>
-              </div>
-            </div>
 
         </div>
 
@@ -479,7 +493,7 @@
 
     
 
-    <div class="site-section bg-image overlay" style="background-image: url('assets/img/home/hero_1.jpg');">
+    <div class="site-section bg-image overlay" style="background-image: url('assets/img/home/hero_1.png');">
       <div class="container">
         <div class="row justify-content-center align-items-center">
           <div class="col-md-8 text-center testimony">
@@ -589,8 +603,16 @@
 <script src="assets/js/includes/aos.js"></script>
 <script src="assets/js/includes/jquery.fancybox.min.js"></script>
 <script src="assets/js/includes/jquery.sticky.js"></script>
+<script src="assets/js/includes/choices.js"></script>
 <script src="assets/js/includes/main.js"></script>
 
+<script>
+    const choices = new Choices('[data-trigger]',
+    {
+      searchEnabled: false,
+      itemSelectText: '',
+    });
 
+  </script>
 </body>
 </html>
