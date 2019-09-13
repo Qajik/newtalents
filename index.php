@@ -245,10 +245,6 @@
               </div>
               <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh eu</p>
             </div>
-
-           
-
-
         </div>
 
       </div>
@@ -258,155 +254,176 @@
       <div class="container-fluid">
         <div class="container">
           <div class="row mb-5 align-items-center">
-            <div class="col-lg-5 mb-5 aos-init" data-aos="fade-up" data-aos-delay="100">
-              <img src="assets/img/home/undraw_youtube_tutorial.svg" alt="Image" class="img-fluid">
-            </div>
-            <div class="col-lg-6 ml-auto companies-section-desc aos-init" data-aos="fade-up" data-aos-delay="200">
-              <h2 class="text-black mb-5">Companies</h2>
-              <div class="companies-short-hr mb-5"></div>
-              <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elitor sit amet imus fugiat quo molestiae illo Lorem ipsum dolor sit amet consectetur adipisicing elitor sit amet imus fugiat quo molestiae illo Lorem ipsum dolor sit amet consectetur adipisicing elitor sit amet imus fugiat quo molestiae illo</p>
 
-              <div class="d-flex align-items-center custom-icon-wrap mb-4">
-                <span class="custom-icon-inner mr-5"><span class="icon icon-graduation-cap"></span></span>
-                <div>
-                  <h3 class="mb-1">Title</h3>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit or sit amet imus fugiat quo molestiae illo imus fugiat quo molestiae illo</p>
+            <div class="owl-carousel col-12 nonloop-block-15">
+              <div>
+                <div class="col-lg-5 col-md-5 mb-5 aos-init" data-aos="fade-up" data-aos-delay="100">
+                  <img src="assets/img/home/company2.png" alt="Image" class="img-fluid">
+                </div>
+                <div class="col-lg-4 col-md-5 col-md-offset-2 col-lg-offset-2 companies-section-desc aos-init aos-animate" data-aos="fade-up" data-aos-delay="200"> 
+                  <h2 class="text-black mb-3">Company</h2>
+                  <div class="companies-short-hr mb-4"></div>
+                  <p class="mb-5">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat vo</p>
+
+                  <div class="d-flex align-items-center custom-icon-wrap mb-5 pt-5">
+                    <span class="custom-icon-inner mr-5"><span class="icon icon-graduation-cap"></span></span>
+                    <div>
+                      <a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</a>
+                    </div>
+                  </div>
+
+                  <div class="d-flex align-items-center custom-icon-wrap">
+                    <span class="custom-icon-inner mr-5"><span class="icon icon-university"></span></span>
+                    <div>
+                      <a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</a>
+                    </div>
+                  </div>
                 </div>
               </div>
 
-              <div class="d-flex align-items-center custom-icon-wrap">
-                <span class="custom-icon-inner mr-5"><span class="icon icon-university"></span></span>
-                <div>
-                  <h3 class="mb-1">Title</h3>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elitor sit amet imus fugiat quo molestiae illo Lorem ipsum dolor sit amet consectetur adipisicing elitor sit amet imus fugiat quo molestiae illo Lorem ipsum dolor sit amet consectetur adipisicing elitor sit amet imus fugiat quo molestiae illo</p>
+              <div>
+                <div class="col-lg-5 col-md-5 mb-5 aos-init" data-aos="fade-up" data-aos-delay="100">
+                  <img src="assets/img/home/undraw_youtube_tutorial.svg" alt="Image" class="img-fluid">
+                </div>
+                <div class="col-lg-4 col-md-5 col-md-offset-2 col-lg-offset-2 companies-section-desc aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+                  <h2 class="text-black mb-3">Company 2</h2>
+                  <div class="companies-short-hr mb-4"></div>
+                  <p class="mb-5">Norem ipsum dolor sit amet consectetur adipisicing elitor sit amet imus fugiat quo molestiae illo Lorem ipsum dolor sit amet consectetur adipisicing elitor sit amet imus fugiat quo molestiae ...</p>
+
+                  <div class="d-flex align-items-center custom-icon-wrap mb-5 pt-5">
+                    <span class="custom-icon-inner mr-5"><span class="icon icon-graduation-cap"></span></span>
+                    <div>
+                      <a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</a>
+                    </div>
+                  </div>
+
+                  <div class="d-flex align-items-center custom-icon-wrap">
+                    <span class="custom-icon-inner mr-5"><span class="icon icon-university"></span></span>
+                    <div>
+                      <a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div>
+                <div class="col-lg-5 col-md-5 mb-5 aos-init" data-aos="fade-up" data-aos-delay="100">
+                  <img src="assets/img/home/undraw_youtube_tutorial.svg" alt="Image" class="img-fluid">
+                </div>
+                <div class="col-lg-4 col-md-5 col-md-offset-2 col-lg-offset-2 companies-section-desc aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+                  <h2 class="text-black mb-3">Company 3</h2>
+                  <div class="companies-short-hr mb-4"></div>
+                  <p class="mb-5">Norem ipsum dolor sit amet consectetur adipisicing elitor sit amet imus fugiat quo....</p>
+
+                  <div class="d-flex align-items-center custom-icon-wrap mb-4">
+                    <span class="custom-icon-inner mr-5"><span class="icon icon-graduation-cap"></span></span>
+                    <div>
+                      <a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit or sit amet imus fugiat quo molestiae illo imus fugiat quo molestiae illo</a>
+                    </div>
+                  </div>
+
+                  <div class="d-flex align-items-center custom-icon-wrap">
+                    <span class="custom-icon-inner mr-5"><span class="icon icon-university"></span></span>
+                    <div>
+                      <a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elitor sit amet imus .</a>
+                    </div>
+                  </div>
                 </div>
               </div>
 
             </div>
           </div>
         </div>
+      </div>
+    </div>
 
-        <div id="talents-section" class="pt-5 pt-4">
-          <div class="container">
-            <div class="row mb-5 align-items-center">
-              <div class="owl-carousel col-12 nonloop-block-15">
+      <div id="talents-section" class="pt-5 pt-4">
+        <div class="container">
+          <div class="row mb-5 align-items-center">
+            <div class="owl-carousel col-12 nonloop-block-15">
 
-                <div class="talents-item">
-                  <div class="col-md-6 mr-auto order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
-                    <h2 class="text-black mb-4">Talents 1</h2>
-                    <div class="talents-short-hr mb-3"></div>
+              <div class="talents-item">
+                <div class="col-md-6 mr-auto order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
+                  <h2 class="text-black mb-4">Talents 1</h2>
+                  <div class="talents-short-hr mb-3"></div>
+                  <div class="pl-4">
                     <p class="mb-4">Forem ipsum dolor sit amet consectetur adipisicing elit. Rem maxime nam porro possimus fugiat quo molestiae illo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem maxime nam porro possimus fugiat quo molestiae illo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem maxime nam porro possimus fugiat quo molestiae illo.</p>
                     <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem maxime nam porro possimus fugiat quo molestiae illo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem maxime nam porro possimus fuo.</p>
                     <p data-aos="fade-up" data-aos-delay="300" class="talents-section-btn">
-                      <a href="#" class="btn btn-primary py-3 px-5 btn-pill more-btn">See rofile</a>
+                      <a href="#" class="btn btn-primary py-3 px-5 btn-pill more-btn">More</a>
                     </p>
                   </div>
-                  <div class="col-lg-6 mb-5 order-1 order-lg-2 pt-5" data-aos="fade-up" data-aos-delay="100">
-                    <img src="assets/img/home/person_1.jpg" alt="Image" class="img-fluid w-50 rounded-circle mx-auto mb-4">
-                  </div>
+              </div>
+                <div class="col-lg-6 mb-5 order-1 order-lg-2 pt-5" data-aos="fade-up" data-aos-delay="100">
+                  <img src="assets/img/home/person_1.jpg" alt="Image" class="img-fluid w-50 rounded-circle mx-auto mb-4">
                 </div>
+              </div>
 
-                <div class="talents-item">
-                  <div class="col-md-6 mr-auto order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
-                    <h2 class="text-black mb-4">Talents 2</h2>
-                    <div class="talents-short-hr mb-3"></div>
+              <div class="talents-item">
+                <div class="col-md-6 mr-auto order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
+                  <h2 class="text-black mb-4">Talents 2</h2>
+                  <div class="talents-short-hr mb-3"></div>
+                  <div class="pl-4">
                     <p class="mb-4">Norem ipsum dolor sit amet consectetur adipisicing elit. Rem maxime nam porro possimus fugiat quo molestiae illo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem maxime nam porro possimus fugiat quo molestiae illo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem maxime nam porro possimus fugiat quo molestiae illo.</p>
                     <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem maxime nam porro possimus fugiat quo molestiae illo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem maxime nam porro possimus fuo.</p>
                     <p data-aos="fade-up" data-aos-delay="300" class="talents-section-btn">
-                      <a href="#" class="btn btn-primary py-3 px-5 btn-pill more-btn">See rofile</a>
+                      <a href="#" class="btn btn-primary py-3 px-5 btn-pill more-btn">More</a>
                     </p>
                   </div>
-                  <div class="col-lg-6 mb-5 order-1 order-lg-2 pt-5" data-aos="fade-up" data-aos-delay="100">
-                    <img src="assets/img/home/person_2.jpg" alt="Image" class="img-fluid w-50 rounded-circle mx-auto mb-4">
-                  </div>
                 </div>
+                <div class="col-lg-6 mb-5 order-1 order-lg-2 pt-5" data-aos="fade-up" data-aos-delay="100">
+                  <img src="assets/img/home/person_2.jpg" alt="Image" class="img-fluid w-50 rounded-circle mx-auto mb-4">
+                </div>
+              </div>
 
-                <div class="talents-item">
-                  <div class="col-md-6 mr-auto order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
-                    <h2 class="text-black mb-4">Talents</h2>
-                    <div class="talents-short-hr mb-3"></div>
+              <div class="talents-item">
+                <div class="col-md-6 mr-auto order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
+                  <h2 class="text-black mb-4">Talents</h2>
+                  <div class="talents-short-hr mb-3"></div>
+                  <div class="pl-4">
                     <p class="mb-4">Korem ipsum dolor sit amet consectetur adipisicing elit. Rem maxime nam porro possimus fugiat quo molestiae illo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem maxime nam porro possimus fugiat quo molestiae illo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem maxime nam porro possimus fugiat quo molestiae illo.</p>
                     <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem maxime nam porro possimus fugiat quo molestiae illo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem maxime nam porro possimus fuo.</p>
                     <p data-aos="fade-up" data-aos-delay="300" class="talents-section-btn">
-                      <a href="#" class="btn btn-primary py-3 px-5 btn-pill more-btn">See rofile</a>
+                      <a href="#" class="btn btn-primary py-3 px-5 btn-pill more-btn">More</a>
                     </p>
                   </div>
-                  <div class="col-lg-6 mb-5 order-1 order-lg-2 pt-5" data-aos="fade-up" data-aos-delay="100">
-                    <img src="assets/img/home/person_3.jpg" alt="Image" class="img-fluid w-50 rounded-circle mx-auto mb-4">
-                  </div>
                 </div>
+                <div class="col-lg-6 mb-5 order-1 order-lg-2 pt-5" data-aos="fade-up" data-aos-delay="100">
+                  <img src="assets/img/home/person_3.jpg" alt="Image" class="img-fluid w-50 rounded-circle mx-auto mb-4">
+                </div>
+              </div>
 
-                <div class="talents-item">
-                  <div class="col-md-6 mr-auto order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
-                    <h2 class="text-black mb-4">Talents 4</h2>
-                    <div class="talents-short-hr mb-3"></div>
+              <div class="talents-item">
+                <div class="col-md-6 mr-auto order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
+                  <h2 class="text-black mb-4">Talents 4</h2>
+                  <div class="talents-short-hr mb-3"></div>
+                  <div class="pl-4">
                     <p class="mb-4">Borem ipsum dolor sit amet consectetur adipisicing elit. Rem maxime nam porro possimus fugiat quo molestiae illo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem maxime nam porro possimus fugiat quo molestiae illo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem maxime nam porro possimus fugiat quo molestiae illo.</p>
                     <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem maxime nam porro possimus fugiat quo molestiae illo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem maxime nam porro possimus fuo.</p>
                     <p data-aos="fade-up" data-aos-delay="300" class="talents-section-btn">
-                      <a href="#" class="btn btn-primary py-3 px-5 btn-pill more-btn">See rofile</a>
+                      <a href="#" class="btn btn-primary py-3 px-5 btn-pill more-btn">More</a>
                     </p>
                   </div>
-                  <div class="col-lg-6 mb-5 order-1 order-lg-2 pt-5" data-aos="fade-up" data-aos-delay="100">
-                    <img src="assets/img/home/person_4.jpg" alt="Image" class="img-fluid w-50 rounded-circle mx-auto mb-4">
-                  </div>
+                </div>
+                <div class="col-lg-6 mb-5 order-1 order-lg-2 pt-5" data-aos="fade-up" data-aos-delay="100">
+                  <img src="assets/img/home/person_4.jpg" alt="Image" class="img-fluid w-50 rounded-circle mx-auto mb-4">
                 </div>
               </div>
             </div>
           </div>
         </div>
+      </div>
 
+        
 
-        <div class="site-section why-us-section" id="about-section">
-          <div class="container">
-            <div class="row mb-5 justify-content-center">
-              <div class="col-lg-12 mb-5 text-center aos-init" data-aos="fade-up" data-aos-delay="">
-                <h2 class="section-title mb-3">Why work with us</h2>
-                <div class="whyus-short-hr  mb-3"><div></div></div>
-                <p class="mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
-              </div>
-            </div>
-            <div class="row why-us-section-ideas">
-              <div class="col-md-6 col-lg-4 mb-4 aos-init" data-aos="fade-up" data-aos-delay="100">
-                <div class="why-us-section-item text-center mt-5">
-                  <img src="assets/img/home/person_1.jpg" alt="Image" class="img-fluid w-50 rounded-circle mx-auto mb-4">
-                  <div class="py-2">
-                    <h3 class="text-black">Idea 1</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro eius suscipit delectus enim iusto tempora, adipisci at provident.</p>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-md-6 col-lg-4 mb-4 aos-init" data-aos="fade-up" data-aos-delay="200">
-                <div class="why-us-section-item text-center mt-5">
-                  <img src="assets/img/home/person_2.jpg" alt="Image" class="img-fluid w-50 rounded-circle mx-auto mb-4">
-                  <div class="py-2">
-                    <h3 class="text-black">Idea 2</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro eius suscipit delectus enim iusto tempora, adipisci at provident.</p>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-md-6 col-lg-4 mb-4 aos-init" data-aos="fade-up" data-aos-delay="300">
-                <div class="why-us-section-item text-center mt-5">
-                  <img src="assets/img/home/person_3.jpg" alt="Image" class="img-fluid w-50 rounded-circle mx-auto mb-4">
-                  <div class="py-2">
-                    <h3 class="text-black">Idea 3</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro eius suscipit delectus enim iusto tempora, adipisci at provident.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="row mb-5 site-section pb-5 align-items-center" id="statistics-section">
+        <div class="row mb-5 mx-0 site-section pb-5 align-items-center" id="statistics-section">
           <div class="col-lg-12 m-auto mb-5 justify-content-center">
-              <div class="mb-5 text-center aos-init" data-aos="fade-up" data-aos-delay="">
-                <h2 class="section-title mb-3">Statistics</h2>
-                <div class="whyus-short-hr mb-3"><div></div></div>
-                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing adipisicing elit. </p>
-              </div>
+            <div class="mb-5 text-center aos-init" data-aos="fade-up" data-aos-delay="">
+              <h2 class="section-title mb-3">Statistics</h2>
+              <div class="whyus-short-hr mb-3"><div></div></div>
+              <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing adipisicing elit. </p>
             </div>
+          </div>
           <div class="col-lg-4 ml-auto pb-5 aos-init" data-aos="fade-up" data-aos-delay="200">
             <h2 class="text-black mb-4">Latest Information</h2>
             <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem maxime nam porro possimus fugiat quo molestiae illo possimus fugiat quo molestiae illo.</p>
@@ -420,7 +437,7 @@
           </div>
 
           <div class="col-lg-7 mb-5 mt-5 pb-5 aos-init" data-aos="fade-up" data-aos-delay="100">
-            <img src="assets/img/home/undraw_teacher.svg" alt="Image" class="img-fluid">
+            <img src="assets/img/home/undraw_teacher.png" alt="Image" class="img-fluid">
           </div>
         </div>
 
@@ -492,21 +509,6 @@
     </div>
 
     
-
-    <div class="site-section bg-image overlay" style="background-image: url('assets/img/home/hero_1.png');">
-      <div class="container">
-        <div class="row justify-content-center align-items-center">
-          <div class="col-md-8 text-center testimony">
-            <h3 class="mb-4">Title if we still need sections</h3>
-            <div class="paralax-more-section-hr"></div>
-            <blockquote>
-              <p>“ Text And more text. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum rem soluta sit eius necessitatibus voluptate excepturi beatae ad eveniet sapiente impedit quae modi quo provident odit molestias! Rem reprehenderit assumenda ”</p>
-            </blockquote>
-          </div>
-        </div>
-      </div>
-    </div>
-
     <div class="site-section" id="contact-section">
       <div class="container">
         <div class="row justify-content-center">
