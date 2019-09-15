@@ -77,8 +77,10 @@
                   </div>
 
                   <p data-aos="fade-up" data-aos-delay="300" class="intro-section-low-desc aos-init">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro eius suscipit delectus enim iusto tempora, adipisci at provident.</p>
-                  <p data-aos="fade-up" data-aos-delay="300" class="aos-init">
-                    <a href="#" class="btn btn-primary py-3 px-5 btn-pill more-btn">More</a>
+                  <p data-aos="fade-up" data-aos-delay="300" class="mt-5 aos-init">
+                    <a href="#" title="see more">
+                      <img src="assets/img/icons/more_1.png" alt="more button">
+                    </a>
                   </p>
                 </div>
                 <div class="col-lg-5 ml-auto aos-init" data-aos="fade-up" data-aos-delay="500">
@@ -349,8 +351,8 @@
                   <div class="pl-4">
                     <p class="mb-4">Forem ipsum dolor sit amet consectetur adipisicing elit. Rem maxime nam porro possimus fugiat quo molestiae illo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem maxime nam porro possimus fugiat quo molestiae illo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem maxime nam porro possimus fugiat quo molestiae illo.</p>
                     <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem maxime nam porro possimus fugiat quo molestiae illo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem maxime nam porro possimus fuo.</p>
-                    <p data-aos="fade-up" data-aos-delay="300" class="talents-section-btn">
-                      <a href="#" class="btn btn-primary py-3 px-5 btn-pill more-btn">More</a>
+                    <p data-aos="fade-up" data-aos-delay="300" class="mt-5 talents-section-btn" >
+                      <a href="#" title="see more" class="more_bt_link"><img src="assets/img/icons/more_2.png"></a>
                     </p>
                   </div>
               </div>
@@ -424,19 +426,22 @@
               <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing adipisicing elit. </p>
             </div>
           </div>
-          <div class="col-lg-4 ml-auto pb-5 aos-init" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="col-lg-4 col-md-4 ml-auto pb-5 aos-init" data-aos="fade-up" data-aos-delay="200">
             <h2 class="text-black mb-4">Latest Information</h2>
             <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem maxime nam porro possimus fugiat quo molestiae illo possimus fugiat quo molestiae illo.</p>
             <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem maxime nam porro possimus fugiat quo molestiae illo possimus fugiat quo molestiae illo possimus fugiat quo molestiae illo.</p>
             <div class="d-flex align-items-center custom-icon-wrap mb-3">
-              <a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a>
+              <a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</a>
             </div>
             <div class="d-flex align-items-center custom-icon-wrap mb-3">
-              <a href="#">Hoxem ipsum dolor sit amet consectetur adipisicing elit.</a>
+              <a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</a>
             </div>
           </div>
 
-          <div class="col-lg-7 mb-5 mt-5 pb-5 aos-init" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-1 col-md-1"></div>
+
+          <div class="col-lg-6 col-md-6 mb-5 mt-5 pb-5 aos-init" data-aos="fade-up" data-aos-delay="100">
             <img src="assets/img/home/undraw_teacher.png" alt="Image" class="img-fluid">
           </div>
         </div>

@@ -611,7 +611,7 @@ h1, h2, h3, h4, h5,
   z-index: 100;
   width: 100%; }
   .sticky-wrapper:not(.is-sticky){
-    opacity: .6;
+    opacity: .9;
   }
   .sticky-wrapper + .site-blocks-cover {
     margin-top: 96px; }
@@ -681,11 +681,15 @@ min-height: 850px}
     color: #fff;
     margin-bottom: 1.5rem; }
   .intro-section p {
-    color: #7B7979;
-    font-size: 2.5rem; 
-    line-height: 1em;}
+    color: #403D3D;
+    font-size: 40px; 
+    line-height: 1em;
+    font-weight: 400;}
  .intro-section p:first-child{
   margin-top: 3rem;
+ }
+ .intro-section-low-desc{
+    font-size: 12px;
  }
  .intro-section .intro-section-low-desc{
     font-size: 1.4rem;
@@ -750,8 +754,9 @@ min-height: 850px}
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   padding: 10px 0 10px 47px;
-  background: #F5F5F5;
+  background: #BDBDBD;
   font-size: 2rem;
+  font-weight: 500;
 }
 .register-now span{
   color: #3a4fa1;
@@ -782,11 +787,12 @@ min-height: 850px}
   border-top: none;
   border-right: none;
   border-left: none;
-  border-bottom: 1px solid #D6D6D6;
+  border-bottom: 1px solid #C7C7C7;
   border-radius: 0 !important;
   box-shadow: none !important;
   font-size: 1.2rem;
   font-weight: normal;
+  color: #C7C7C7;
 } 
 #registerForm .form-group button{
   position: absolute;
@@ -1120,14 +1126,19 @@ min-height: 850px}
 }
 
 #talents-section .talents-section-btn a{
-  border: 2px solid #4d5faa;
-  color: #4d5faa;
-  text-transform: inherit;
-  font-weight: bold;
+  border: none;
 }
-#talents-section .talents-section-btn a:hover{
+#talents-section .talents-section-btn a:not(.more_bt_link):hover{
   color: #fff;
   background-color: #4d5faa;
+}
+#talents-section .owl-carousel .owl-item a.more_bt_link{
+  display: block;
+  max-width: 124px;
+}
+#talents-section .owl-carousel .owl-item a.more_bt_link img{
+  box-shadow: none;
+  width: 100% !important;
 }
 .owl-carousel .owl-dots{
   text-align: center;
@@ -1287,11 +1298,11 @@ min-height: 850px}
 #statistics-section p{
   color: #B6BECE;
   font-weight: bold;
+  font-size: 15px;
 }
 #statistics-section a{
-  color: #BBCBF9;
-  font-weight: bold;
-  font-size: 1.3rem;
+  color: #64C1F0;
+  font-size: 15px;
 }
 
 .course-instructor {
@@ -1387,7 +1398,7 @@ background: #e3e3e3; }
 #contact-section form input[type="submit"]{
   border-radius: 2px !important;
   text-transform: none;
-  background: #4d5faa;
+  background: #54BBEF;
   color: #fff;
   font-weight: normal;
 }
@@ -1411,6 +1422,19 @@ background: #e3e3e3; }
     background-position: 100% -25px;
     background-repeat: no-repeat;
     background-size: 60%;
+  }
+  #steps-section .align-self-stretch:not(:first-child) figure:after{
+    content: "";
+    background: url(../../../assets/img/home/dashed-hr.png) no-repeat right center;
+    width: 100%;
+    display: block;
+    height: 2px;
+    position: absolute;
+    top: 50%;
+    right: -100%;
+  }
+  #steps-section .align-self-stretch:last-child figure:after{
+    background-image: none; 
   }
   #talents-section{
     background: url('../../../assets/img/home/talents-bg.png') no-repeat 130% 40%;
@@ -1488,6 +1512,8 @@ background: #e3e3e3; }
   #steps-section .align-self-stretch:not(:first-child) figure{
     position: relative;
   }
+  
+
   #steps-section .align-self-stretch:not(:first-child) figure img{
     position: relative;
     z-index: 10;
